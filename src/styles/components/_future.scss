@@ -1,0 +1,12 @@
+@use 'cores';
+
+.future {
+    color: cores.$corPreta;
+
+    .container {
+        padding: 40px;
+        text-align: center;
+        background-color: cores.$corSecundaria;
+        color: cores.$corPreta;
+    }
+}
