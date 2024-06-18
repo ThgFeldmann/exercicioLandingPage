@@ -15,7 +15,7 @@ body {
     font-size: 23px;
 }
 
-.Title {
+.title {
     padding: 16px;
     justify-content: center;
     display: flex;
@@ -33,4 +33,54 @@ body {
     position: relative;
     left: 25%;
     background-color: rgb(71, 23, 23);
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    .underlayer {
+        width: 80%;
+        left: 10%;
+    }
+
+    .title {
+        width: 100%;
+        font-size: 32px;
+    }
+
+    section {
+        font-size: 30px;
+
+        .container {
+            width: 100%;
+
+            #date {
+                font-size: 24px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .underlayer {
+        width: 90%;
+        left: 5%;
+    }
+
+    .title {
+        font-size: 16px
+    }
+
+    section {
+        font-size: 18px;
+
+        .container {
+            width: 100%;
+
+            #date {
+                font-size: 14px;
+            }
+        }
+    }
+
 }
