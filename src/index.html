@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aniversário</title>
-
     <link rel="stylesheet" href="./styles/main.scss">
+    
 </head>
 <body>
-    <header class="Title">
-        <i>
-            <h1>Aniversário</h1>
-        </i>
-    </header>
-    <section class="future">
-        <div class="container">
-            <p>O aniversário será em: <span id="contadorFuturo"></span></p>
-        </div>
-    </section>
-    <section class="past">
-        <div class="container">
-            <p>O último aniversário foi a: <span id="contadorPassado"></span></p>
-        </div>
-    </section>
+    <div class="underlayer">
+        <header class="Title">
+            <i>
+                <h1>Aniversário</h1>
+            </i>
+        </header>
+        <section class="future">
+            <div class="container">
+                <p>O aniversário será em: <span id="contadorFuturo"></span></p>
+                <p class="date">No dia 07/02/2025</p>
+            </div>
+        </section>
+        <section class="past">
+            <div class="container">
+                <p>O último aniversário foi a: <span id="contadorPassado"></span></p>
+                <p class="date">No dia 07/02/2024</p>
+            </div>
+        </section>
+    </div>
 
-    <script src="./scripts/futuro.js"></script>
-    <script src="./scripts/passado.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
